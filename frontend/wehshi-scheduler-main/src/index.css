@@ -1,0 +1,112 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  max-width: 150px;
+}
+img {
+  width: 100%;
+}
+a {
+  display: inline-block;
+}
+
+#main-banner {
+  height: 100vh;
+}
+.wrapper {
+  height: 100vh;
+}
+.header-btn {
+  white-space: nowrap;
+}
+.no-login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-detail .image {
+  margin-bottom: 30px;
+}
+
+.right-detail {
+  color: #fff;
+}
+.bg-color {
+  background-color: #5454f7;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+.location-icon {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 15px;
+}
+.company,
+.event-date {
+  margin-bottom: 10px;
+}
+.input-field {
+  width: 100%;
+}
+.createevent {
+  width: 100%;
+  max-width: 600px;
+}
+.border-img {
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 200px;
+}
+.border-img img {
+  object-fit: cover;
+  height: 100%;
+}
+.eventcard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.eventcard > a {
+  width: calc(100% / 2 - 10px);
+}
+.registernow {
+  display: block;
+  margin-top: 40px;
+}
+td {
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .detail-wrapper {
+    display: flex;
+    column-gap: 30px;
+  }
+  .left-detail {
+    width: 60%;
+  }
+  .right-detail {
+    width: 40%;
+  }
+  .bg-color {
+    height: 450px;
+  }
+  .eventcard > a {
+    width: calc(100% / 4 - 15px);
+  }
+}
