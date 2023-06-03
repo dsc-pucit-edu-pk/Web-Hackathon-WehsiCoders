@@ -18,6 +18,7 @@ The challenge is to develop a web application that allows users to register, cre
    - Support for both one-time and recurring event schedules.
    - Edit and delete events as needed.
    - User-friendly interface for efficient event management.
+   - 
 3. Event Search and Filtering:
    - Search events based on keywords (title, description) or date.
    - Implement filters to refine event searches using categories or tags.
